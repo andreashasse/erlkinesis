@@ -1,0 +1,16 @@
+{application, kinesis,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  lhttpc,
+                  jiffy
+                 ]},
+  {mod, { kinesis_app, []}},
+  {env, []}
+ ]}.
