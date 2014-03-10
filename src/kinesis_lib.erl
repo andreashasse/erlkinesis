@@ -11,7 +11,7 @@
          put_record/4
          ]).
 
--include("kinesis.hrl").
+-include("../include/kinesis.hrl").
 
 create_stream(Config, StreamName, ShardCount) ->
     Payload = {[

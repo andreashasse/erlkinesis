@@ -4,7 +4,7 @@
 
 -export([sign_v4/5]).
 
--include("kinesis.hrl").
+-include("../include/kinesis.hrl").
 
 authorization(Config, CredentialScope, SignedHeaders, Signature) ->
     ["AWS4-HMAC-SHA256"
